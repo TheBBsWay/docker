@@ -5,7 +5,7 @@ RUN apt-get update && \
 
 FROM microsoft/dotnet:2.1-sdk AS build
 
-FROM node:lts-slim AS node_build
+FROM node:lts-slim AS node_build 
 
 ARG USER_HOME_DIR="/tmp"
 ARG APP_DIR="/app"
